@@ -1,5 +1,8 @@
 # Custom for ignores
-NIA_text_dataset/*
+NIA_text_dataset
+!NIA_text_dataset/
+!NIA_text_dataset/toy_audio_sample/
+NIA_text_dataset/toy_audio_sample/toy_sample
 !NIA_text_dataset/toy_audio_sample/transform_tensor2npy.py
 **/models
 **/wandb
